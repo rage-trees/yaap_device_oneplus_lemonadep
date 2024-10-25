@@ -1043,5 +1043,8 @@
 
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">org.lineageos.device.DeviceSettings.UPDATE_SLIDER_POSITION</string>
+    
+    <!-- Set to true if alert slider should show on the left -->
+    <item name="alert_slider_dialog_left" type="bool">false</item>
 
 </resources>
