@@ -23,7 +23,7 @@ PRODUCT_MODEL := LE2125
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Boot animation resolution.
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="OnePlus9Pro-user 14 UKQ1.230924.001 R.1a46f9a_1-1 release-keys" \
@@ -32,6 +32,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9Pro \
     SystemDevice=OnePlus9Pro \
     SystemName=OnePlus9Pro
+
+PRODUCT_AAPT_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_CHARACTERISTICS := nosdcard
 
 # Stuff
 TARGET_SUPPORTS_QUICK_TAP := true
